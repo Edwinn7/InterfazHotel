@@ -10,3 +10,6 @@
   letter-spacing: 1px;
   transition: all 0.3s ease-out;
 }
+.form-label{
+  color: #fff;
+}

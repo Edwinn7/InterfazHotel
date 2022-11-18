@@ -7,3 +7,29 @@
         </div>
     </div>
 </div>
+<app-descripcion></app-descripcion>
+<section>
+    <!-- <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col" *ngFor="let habitacion of habitaciones">
+                <div class="card h-100 shadow">
+                    <img src={{habitacion.fotografias[0]}} alt="foto" class="img-fluid w-100 h-100">
+                    <h3 class="text-center fw-bold">{{habitacion.nombre}}</h3>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col" *ngFor="let habitacion of habitaciones">
+            <div class="card">
+                <img src="{{habitacion.fotografias[0]}}" class="card-img-top w-100 h-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{habitacion.nombre}}</h5>
+                    <p class="card-text">Descripción: {{habitacion.descripcion}}</p>
+                    <p class="card-text">Valor noche: {{habitacion.valorNoche}}</p>
+                    <p class="card-text">Número máximo de personas: {{habitacion.numeroMaximoPersonas}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
