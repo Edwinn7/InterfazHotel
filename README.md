@@ -1,4 +1,5 @@
 # Hotel
+Interfaz para pintar y consumir el API del hotel: https://github.com/Edwinn7/ServidorHotelAvanzada
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
 
